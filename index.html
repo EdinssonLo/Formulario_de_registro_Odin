@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="content-left">
+      <div class="title-left">
+        <img src="./asses/odin-lined.png" alt="" />
+        <h1>Odin</h1>
+      </div>
+    </div>
+    <div class="content-rigth">
+      <form action="">
+        <div class="header-content">
+          <p>
+            Duis a condimentum ipsum. Aenean eu feugiat nulla. Curabitur sit
+            amet lobortis sapien, sit amet imperdiet velit. Cras non ante vitae
+            tellus ultricies cursus. Proin quis tortor pretium, consectetur arcu
+            in, ultrices diam. Maecenas metus neque, imperdiet id aliquam a,
+            auctor sed felis. <em>Donec</em> rhoncus eget ex nec tempus.
+          </p>
+          <h2>Lorem Ipsum</h2>
+        </div>
+        <div class="form-register">
+          <h2>Let's do this!</h2>
+
+          <div class="items">
+            <div class="left">
+              <label for="firts-name">FIRTS NAME</label>
+              <input type="text" id="firts-name" required />
+
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" required/>
+
+              <label for="password">PASSWORD</label>
+              <input class="error" type="password" id="password" minlength="8" maxlength="16" required/>
+            </div>
+            <div class="rigth">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" id="last-name" required/>
+
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="tel" id="phone-number" required/>
+
+              <label for="password-confirm">CONFIRM PASSWORD</label>
+              <input class="error" type="password" id="password-confirm" minlength="8" maxlength="16" required/>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content">
+          <button type="submit">Create Account</button>
+          <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
